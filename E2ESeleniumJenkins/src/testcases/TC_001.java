@@ -9,6 +9,7 @@ public class TC_001 {
 	@Test
 	public void testcase01()
 	{
+		//tc1
 		System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://gmail.google.com");
