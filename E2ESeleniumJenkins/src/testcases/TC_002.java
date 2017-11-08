@@ -13,7 +13,7 @@ public class TC_002 {
 		//tc2
 		System.setProperty("webdriver.chrome.driver","./Driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		driver.get("https://gmail.google.com");
+		driver.get("www.cnn.com");
 		driver.quit();
 	}
 	
